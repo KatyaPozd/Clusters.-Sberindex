@@ -1,0 +1,31 @@
+# config.yaml — Гиперпараметры проекта
+
+data:
+  input_file: "data/data.csv"
+  boundaries_file: "data/szfo_boundaries.gpkg"
+  encoding: "utf-8-sig"
+  separator: ";"
+
+features:
+  categories:
+    - "Маркетплейсы"
+    - "Здоровье"
+    - "Продовольствие"
+    - "Транспорт"
+    - "Общественное питание"
+  seasons:
+    "Зима": [12, 1, 2]
+    "Весна": [3, 4, 5]
+    "Лето": [6, 7, 8]
+    "Осень": [9, 10, 11]
+  min_months: 10
+
+algorithm:
+  knn_k: 10
+  leiden_resolution: 1.0
+  leiden_seed: 42
+  pca_components: 3
+
+paths:
+  outputs_figures: "outputs/figures"
+  outputs_tables: "outputs/tables"

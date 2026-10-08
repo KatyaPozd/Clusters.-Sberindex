@@ -1,0 +1,12 @@
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Системные
+.DS_Store
+
+# Результаты (воспроизводятся запуском)
+outputs/

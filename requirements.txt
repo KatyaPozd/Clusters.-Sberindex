@@ -1,0 +1,12 @@
+pandas
+numpy
+scipy
+scikit-learn
+python-igraph
+leidenalg
+geopandas
+matplotlib
+plotly
+pyarrow
+openpyxl
+pyyaml
